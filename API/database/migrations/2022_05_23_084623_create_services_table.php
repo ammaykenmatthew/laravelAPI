@@ -19,6 +19,7 @@ class CreateServicesTable extends Migration
             $table->string('email');
             $table->bigInteger('cpNumber');
             $table->string('role')->nullable();
+            $table->bigInteger('service_fee');
             $table->string('address');
             $table->string('imgUrl')->nullable();
             $table->timestamps();

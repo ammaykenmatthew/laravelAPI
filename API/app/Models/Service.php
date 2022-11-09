@@ -15,7 +15,9 @@ class Service extends Model
         'email',
         'cpNumber',
         'role',
+        'service_fee',
         'address',
+        
     ];
 
     public function user(){

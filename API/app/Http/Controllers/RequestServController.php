@@ -56,6 +56,15 @@ class RequestServController extends Controller
         ]);
 
         return RequestServ::create($request->all());
+
+        // $data = new request_serv;
+        // $data->fullName = $request->fullName;
+        // $data->eMail = $request->eMail;
+        // $data->cpNumber = $request->cpNumber;
+        // $data->service_id = $request->service_id;
+        // $data->status = 'In Progress';
+
+        // $data->save();
     }
 
      /**
